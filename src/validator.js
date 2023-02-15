@@ -31,7 +31,7 @@ function sumOfNumbers(list) {
 }
 
 function maskify(string) {
-  return string.replace(/\d(?=\d{3})/g, "*")
+  return string.replace(/\d(?=\d{4})/g, "*")
 }
 
 const validator = {
