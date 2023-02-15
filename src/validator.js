@@ -30,8 +30,13 @@ function sumOfNumbers(list) {
   return list.reduce((accumulator, currentValue) => accumulator + currentValue, 0)
 }
 
+function maskify(string) {
+  return string.replace(/\d(?=\d{3})/g, "*")
+}
+
 const validator = {
-  isValid: isValid
+  isValid: isValid,
+  maskify: maskify
 };
 
 export default validator;

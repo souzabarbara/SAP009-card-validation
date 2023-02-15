@@ -4,13 +4,93 @@ body {
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+#main {
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    margin-top: 100px;
+}
+
+#site-description {
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+#credit-card {
+    width: max-content;
+    height: 130px;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#credit-card-number-container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: auto auto;
+}
+
+#credit-card-number {
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#credit-card-brand {
+    width: 55px;
+    height: 35px;
+    background-color: #ddd;
+    border-radius: 5px;
+    background-image: url("/images/logo-visa.jpg");
+}
+
+#input-text-credit-card-number {
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 15px;
+}
+
+#input-text-credit-card-number:focus {
+    outline: #B378B5 solid 1px;
+}
+
+.btn-primary {
+    background: rgb(221, 221, 221);
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background: rgba(131, 58, 180, 1);
+}
+
+#validate-button {
+    margin-top: 25px;
+    font-size: 15px;
 }
 
 #header {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
-    background: #B378B5;
+    background: #833ab4;
     color: #fff;
     font-weight: bold;
     font-size: 20px;
@@ -20,7 +100,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
-    background: #B378B5;
+    background: #833ab4;
     color: #fff;
     font-size: 16px;
 }
