@@ -23,4 +23,4 @@ A tela principal do site no final do projeto ficou dessa forma:
 ### Deploy da solução 
 
 Para fazer o deploy do site foi usado o Github Pages. 
-Para acessar o link do site,  clique (aqui) <link>.
+Para acessar o link do site,  clique [aqui](https://souzabarbara.github.io/SAP009-card-validation/).
