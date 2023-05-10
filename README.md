@@ -1,7 +1,7 @@
-## Validador de Cartão de Crédito
+## Credit Card Validation
 Esse projeto consiste em um site que possibilita o usuário validar se um número de cartão de crédito é válido ou não de acordo com o Algoritmo de Luhn. O site foi feito usando HTML, CSS e JavaScript puro. 
 
-### Feito com 
+### Tecnologias utilizadas
 
 * HTML
 * CSS
